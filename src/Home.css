@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 100%;
+  width: 16rem;
+  pointer-events: none;
+  margin-top:5vh; 
+  /* position: relative;
+  bottom: 30vh; */
+}
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-family: oswald;
+  margin: 0px;
+}
+#sec1-title{
+  font-size: 4rem;
+  margin-top: 0px;
+}
+.first-section{
+  width: 100%vw;
+  height:82vh;
+  min-height: 330px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.text-shadow{
+  text-shadow: rgb(229, 49, 112) -4px 4px 0px;
+  color: white;
+  -webkit-text-stroke: 1px rgb(39, 35, 67);
+}
+.flex-vertical{
+  display: flex;
+  flex: row;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-top: 13vh;
+  margin-bottom: 13vh;
+}
+.plus, .c-align{
+  margin: 5px;
+}
+.App-header {
+  background-color: rgb(255,255,102);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+center{
+  width:100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.btn{
+  width: 32vw;
+  height: 82px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.inline-flex{
+  display: flex;
+  justify-content: center;
+  clear: both;
+}
+.second-section{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.img-full{
+  width: 19vw;
+  height:51px;
+}
+#sec2-title1{
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+.sec2-title2{
+  font-size: 2rem;
+  margin-top:6rem ;
+  margin-bottom: 5rem;
+}
+.card{
+  width: 12rem;
+  height: 150px;
+  margin:2.5vw;
+}
+.card-info{
+  font-size: 1.5rem;
+}
+.arrow{
+  transform: rotate(-90deg);
+}
+.sec3-title{
+  margin-top: 8rem;
+  padding-top: 40px;
+}
+.divider{
+  width:100%;
+}
+.float-right{
+  float: right;
+  height: 50px;
+}
+.float-left{
+  float: left;
+}
+.include{
+  background-color: #FFE9ED;
+}
+.yt{
+  margin-top: 5rem;
+  clear: both;
+}
+iframe{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 720px) {
+  .App-logo {
+    width: 15rem;
+  }
+  .first-section{
+    min-height: 400px;
+  }
+  #sec1-title{
+    font-size: 1.8rem;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
+  .text-shadow{
+    text-shadow: rgb(229, 49, 112) -3px 3px 0px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(39, 35, 67);
+  }
+  .flex-vertical{
+    display: grid;
+    grid-column: auto(1);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .plus, .c-align,.arrow{
+    margin: 8px;
+    width: 100%;
+    justify-self: center;
+  }
+  .card{
+    width:50vw;
+  }
+  .arrow{
+    transform: none;
+    width: 40px;
+    height: 40px;
+  }
+  .inline-flex{
+    display: grid;
+    grid-column: auto(1);
+    justify-content: center;
+  }
+  .include{
+    grid-column: auto(2);
+  }
+.btn{
+  width:70vw;
+  height: 55px;
+  margin-block-end: 30px;
+  font-size: .88rem;
+}
+  iframe{
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,14 @@
+.btn{
+    border: 2px solid #000;
+    border-color: rgba(0,0,0,var(--border-opacity));
+    border-radius: .5rem;
+    padding: .75rem 1.5rem;
+    box-shadow: -5px 5px 0 #272343;
+    background-color: white;
+    font-weight: 600;
+    outline: none;
+    font-family: oswald;
+}
+.feedback-btn:hover{
+    cursor: not-allowed;
+}

@@ -1,0 +1,422 @@
+[
+{
+    "id": 0,
+    "challenge": "Scan and Shop app",
+    "pallete": ["#ff8906", "#272343", "#f25f4c", "#e53170"],
+    "fonts": ["font1-1", "font1-2"],
+    "fontLink":["https://fonts.google.com/specimen/Roboto", "https://fonts.google.com/specimen/Montserrat"],
+    "library":"Library1"
+},
+{
+    "id": 1,
+    "challenge": "Mall Navigation App",
+    "pallete": ["#C5FAD9", "#ACEACF", "#F77FEE", "#DB66E4"],
+    "fonts": ["font2-1", "font2-2"],
+    "fontLink":["https://fonts.google.com/specimen/Roboto", "https://fonts.google.com/specimen/Montserrat"],
+    "library":"Library2" 
+},
+{
+    "id": 2,
+    "challenge": "Restaurant Reservation or Booking app",
+    "pallete": ["#F9F8EB", "#A7D7C5", "#74B49B", "#5C8D89"],
+    "fonts": ["font3-1", "font3-2"],
+    "fontLink":["https://fonts.google.com/specimen/Roboto", "https://fonts.google.com/specimen/Montserrat"],
+    "library":"Library3" 
+},
+{
+    "id": 3,
+    "challenge": "On-demand car wash app",
+    "pallete": ["#F3F9FB", "#474F85", "#51E3D4", "#F3ECD3"],
+    "fonts": ["font4-1", "font4-2"],
+    "fontLink": ["https://fonts.google.com/specimen/Roboto", "https://fonts.google.com/specimen/Montserrat"],
+    "library":"Library4" 
+},
+{
+    "id": 4,
+    "challenge": "Criminal alert app",
+    "pallete": ["#15B7B9", "#10DDC2", "#F5F5F5", "#F57170"],
+    "fonts": ["font5-1", "font5-2"],
+    "fontLink":["https://fonts.google.com/specimen/Roboto", "https://fonts.google.com/specimen/Montserrat"],
+    "library":"Library5" 
+},
+{
+"id": 5,
+    "challenge": "Exam Study App"
+},
+{
+    "id": 6,
+    "challenge": "Navigation App"
+},
+{
+    "id": 7,
+    "challenge":"Online Flower And Gift Delivery App"
+},
+{
+    "id": 8,
+    "challenge":"Supermarket Checkout App"
+},
+{
+    "id": 9,
+    "challenge":"Restaurant Recommendation App"
+},
+{
+    "id": 10,
+    "challenge":"Parking App"
+},
+{
+    "id": 11,
+    "challenge": "Interior Design App"
+},
+{
+    "id": 12,
+    "challenge": "Phone Silencer App"
+},
+{
+    "id": 13,
+    "challenge": "Security Control App"
+},
+{
+    "id": 14,
+    "challenge": "Finance And bill Management App"
+},
+{
+    "id": 15,
+    "challenge": "Social Media Apps"
+},
+{
+    "id": 16,
+    "challenge": "Ride Sharing App"
+},
+{
+    "id": 17,
+    "challenge": "Language Translation App"
+},
+{
+    "id": 18,
+    "challenge": "Productivity And Motivation app"
+},
+{
+    "id": 19,
+    "challenge": "Intelligent Flirt App"
+},
+{
+    "id": 20,
+    "challenge": "Receipt Management App"
+},
+{
+    "id": 21,
+    "challenge": "Subscription-manager App"
+},
+{
+    "id": 22,
+    "challenge": "Tenant Finder And Communication App"
+},
+{
+    "id": 23,
+    "challenge": "Travel Suggestion App"
+},
+{
+    "id": 24,
+    "challenge": "Customized Restaurant App"
+},
+{
+    "id": 25,
+    "challenge": "App For Refugees"
+},
+{
+    "id": 26,
+    "challenge": "Cheap Delivery And Postal App"
+},
+{
+    "id": 27,
+    "challenge": "Charity Donation App"
+},
+{
+    "id": 28,
+    "challenge": "Transport App"
+},
+{
+    "id": 29,
+    "challenge": "GST Return Filing App"
+},
+{
+    "id": 30,
+    "challenge": "Note-Taking App"
+},
+{
+    "id": 31,
+    "challenge": "Text Reader App"
+},
+{
+    "id": 32,
+    "challenge": "Eat-together App"
+},
+{
+    "id": 33,
+    "challenge": "Social Rating App"
+},
+{
+    "id": 34,
+    "challenge": "Civil Construction App"
+},
+{
+    "id": 35,
+    "challenge": "Interest-based Dating App"
+},
+{
+    "id": 36,
+    "challenge": "Goal Tracking App"
+},
+{
+    "id": 37,
+    "challenge": "Cloud Presentation App"
+},
+{
+    "id": 38,
+    "challenge": "Messaging App"
+},
+{
+    "id": 39,
+    "challenge": "Book Review App"
+},
+{
+    "id": 40,
+    "challenge": "Restaurant or Food-finding App"
+},
+{
+    "id": 41,
+    "challenge": "Lost Item Tracker App"
+},
+{
+    "id": 42,
+    "challenge": "Writer’s Solitude App"
+},
+{
+    "id": 43,
+    "challenge": "Home Cleaning Service App"
+},
+{
+    "id": 44,
+    "challenge": "Food Safety and Health Inspection App"
+},
+{
+    "id": 45,
+    "challenge": "Social Goal Sharing App"
+},
+{
+    "id": 46,
+    "challenge": "Profile Explorer App"
+},
+{
+    "id": 47,
+    "challenge": "Shopping Assistant App"
+},
+{
+    "id": 48,
+    "challenge": "Money Lending Manager App"
+},
+{
+    "id": 49,
+    "challenge": "Anti-smartphone Addiction App"
+},
+{
+    "id": 50,
+    "challenge": "Caller Image Identifier App"
+},
+{
+    "id": 51,
+    "challenge": "Brand Identifier App"
+},
+{
+    "id": 52,
+    "challenge": "Virtual Time Capsule App"
+},
+{
+    "id": 53,
+    "challenge": "Selfie Competition And Compare App"
+},
+{
+    "id": 54,
+    "challenge": "Grocery Delivery App"
+},
+{
+    "id": 55,
+    "challenge": "Suicide Control App"
+},
+{
+    "id": 56,
+    "challenge": "Shopping App"
+},
+{
+    "id": 57,
+    "challenge": "All-In-One Help App"
+},
+{
+    "id": 58,
+    "challenge": "Story Writing And Sharing App"
+},
+{
+    "id": 59,
+    "challenge": "Party Planning And Invitation App"
+},
+{
+    "id": 60,
+    "challenge": "Fashion Design And Shopping App"
+},
+{
+    "id": 61,
+    "challenge": "Social Networking App"
+},
+{
+    "id": 62,
+    "challenge": "Global Shopping Assistance app"
+},
+{
+    "id": 63,
+    "challenge": "Startup Assistance App"
+},
+{
+    "id": 64,
+    "challenge": "Finding Small paid Work App"
+},
+{
+    "id": 65,
+    "challenge": "Hair Coloring Assistance App"
+},
+{
+    "id": 66,
+    "challenge": "Review and Earn App"
+},
+{
+    "id": 67,
+    "challenge": "Finding Team Member App"
+},
+{
+    "id": 68,
+    "challenge": "Consumer Guidance App"
+},
+{
+    "id": 69,
+    "challenge": "Public Transport App"
+},
+{
+    "id": 70,
+    "challenge": "Pub/club/restaurant Finder App"
+},
+{
+    "id": 71,
+    "challenge": "Food Selection App"
+},
+{
+    "id": 72,
+    "challenge": "Sync Camera App"
+},
+{
+    "id": 73,
+    "challenge": "Random chat app"
+},
+{
+    "id": 74,
+    "challenge": "Random Messaging App"
+},
+{
+    "id": 75,
+    "challenge": "Digital Receipt App"
+},
+{
+    "id": 76,
+    "challenge": "Travel App"
+},
+{
+    "id": 77,
+    "challenge": "Song Finder App"
+},
+{
+    "id": 78,
+    "challenge": "Beauty Specialist Hiring App"
+},
+{
+    "id": 79,
+    "challenge": "Goods Exchange App"
+},
+{
+    "id": 80,
+    "challenge": "Smart Alarm App"
+},
+{
+    "id": 81,
+    "challenge": "Wishlist App"
+},
+{
+    "id": 82,
+    "challenge": "Food Freshness Checker App"
+},
+{
+    "id": 83,
+    "challenge": "Video Hosting App"
+},
+{
+    "id": 84,
+    "challenge": "Tutor Finder App"
+},
+{
+    "id": 85,
+    "challenge": "Toilet Finder App"
+},
+{
+    "id": 86,
+    "challenge": "On-demand Health Check App"
+},
+{
+    "id": 87,
+    "challenge": "Cards Game App"
+},
+{
+    "id": 88,
+    "challenge": "People Finding App"
+},
+{
+    "id": 89,
+    "challenge": "Kindness Sharing App"
+},
+{
+    "id": 90,
+    "challenge": "Original Item Detector App"
+},
+{
+    "id": 91,
+    "challenge": "Deal Alert App"
+},
+{
+    "id": 92,
+    "challenge": "DIY Encouragement App"
+},
+{
+    "id": 93,
+    "challenge": "Life Assistance App"
+},
+{
+    "id": 94,
+    "challenge": "Giveaway App"
+},
+{
+    "id": 95,
+    "challenge": "Health Video Chat App"
+},
+{
+    "id": 96,
+    "challenge": "Location-based App"
+},
+{
+    "id": 97,
+    "challenge":" Collective Shopping App"
+},
+{
+    "id": 98,
+    "challenge": "Compatible Food Finder App"
+},
+{
+    "id": 99,
+    "challenge": "All-in-one Launcher App"
+}
+]

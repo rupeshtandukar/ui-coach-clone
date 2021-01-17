@@ -1,0 +1,118 @@
+.generarte-section{
+    display: grid;
+    grid-auto-columns: 1;
+    justify-content: center;
+}
+.refresh{
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px;
+    margin-top: 2rem;
+}
+.box{
+    display: inline-flex;
+    justify-content: center;
+    width:70vw;
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 32px;
+    margin-bottom: 1rem;
+}
+.challenge{
+    box-shadow: -6px 6px 0 #ff8906;
+}
+.color-pallete{
+    box-shadow: -5px 5px 0 #272343;
+}
+.font-pairing{
+    box-shadow: -6px 6px 0 #f25f4c;
+}
+.illustrations{
+    box-shadow: -6px 6px 0 #e53170;
+}
+.margin-top{
+    margin-top: 1rem;
+}
+.link-div{
+    display: grid;
+    grid-auto-columns: 1;
+    justify-content: center;
+    text-align: center;
+}
+.p1, .link-div{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    width: 55vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.p2{
+    font-size: .9rem;
+    margin-block-start: 0em;
+}
+.size{
+    width: 13vw;
+    height:30px;
+    border-right: 2px solid;
+    padding-right: 5px;
+}
+.color1{
+    color: #ff8906;
+    border-color: #ff8906;
+}
+.color2{
+    color: #272343;
+    border-color: #272343;
+}
+.color3{
+    color: #f25f4c;
+    border-color: #f25f4c;
+}
+.color4{
+    color: #e53170;
+    border-color: #e53170;
+}
+.fa-hand-point-down{
+    color:#FFC83D;
+}
+.font1{
+    padding-bottom: 16px;
+    border-bottom: 2px solid #f25f4c;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.color-picker{
+    
+}
+i, .color-picker:hover{
+cursor: pointer;
+box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+}
+
+@media screen and (max-width: 720px) {
+
+    .box{
+        display: grid;
+        grid-auto-columns: 1;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .size{
+        width: fit-content;
+        border-bottom: 2px solid;
+        border-right: 0px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+    }
+    .link-div, .p1{
+        margin-bottom: 20px;
+    }
+
+}
