@@ -1,25 +1,25 @@
-import logo1 from './logo1.svg';
-import plus from './Images/plus.svg';
-import google from './Images/google.svg';
-import p from './Images/p.svg';
-import apple from './Images/apple.svg';
-import netflix from './Images/netflix.svg';
-import adobe from './Images/adobe.svg';
+import logo1 from '../logo1.svg';
+import plus from '../Images/plus.svg';
+import google from '../Images/google.svg';
+import p from '../Images/p.svg';
+import apple from '../Images/apple.svg';
+import netflix from '../Images/netflix.svg';
+import adobe from '../Images/adobe.svg';
 import './Home.css';
-import Card from './Card';
-import generate from './Images/generate.svg';
-import design from './Images/design.svg';
-import feedback from './Images/feedback.svg';
-import repeat from './Images/repeat.svg';
-import arrow from './Images/arrow.svg';
-import right from './Images/right.svg';
-import left from './Images/left.svg';
-import idea from './Images/idea.svg';
-import pallete from './Images/pallete.svg';
-import font from './Images/font.svg';
-import library from './Images/library.svg';
+import Card from '../Card';
+import generate from '../Images/generate.svg';
+import design from '../Images/design.svg';
+import feedback from '../Images/feedback.svg';
+import repeat from '../Images/repeat.svg';
+import arrow from '../Images/arrow.svg';
+import right from '../Images/right.svg';
+import left from '../Images/left.svg';
+import idea from '../Images/idea.svg';
+import pallete from '../Images/pallete.svg';
+import font from '../Images/font.svg';
+import library from '../Images/library.svg';
 // import ReactPlayer from 'react-player';
-import Button from './Button'
+import Button from '../Button';
 
 function Home() {
   return (
@@ -68,7 +68,7 @@ function Home() {
         </div>
         <div className='inline-flex include'>
         <Card svgs={idea} Ititle={'550 Projects'} cname={'icons'} w={'64'} h={'64'} />
-        <Card svgs={pallete} Ititle={'2400 color palletes'} cname={'icons'} w={'64'} h={'64'}/>
+        <Card svgs={pallete} Ititle={'2400 color palettes'} cname={'icons'} w={'64'} h={'64'}/>
         <Card svgs={font} Ititle={'460 Font pairings'} cname={'icons'} w={'64'} h={'64'} />
         <Card svgs={library} Ititle={'Illustrations libraries'} cname={'icons'} w={'64'} h={'64'} />
         </div>

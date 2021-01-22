@@ -1,0 +1,77 @@
+[
+    {
+        "id":"0",
+        "fontName":"Roboto",
+        "fontLink":"https://fonts.google.com/specimen/Roboto"
+    },
+    {
+        "id":"1",
+        "fontName":"Yusei Magic",
+        "fontLink":"https://fonts.google.com/specimen/Yusei+Magic"
+    },
+    {
+        "id":"2",
+        "fontName":"Potta One",
+        "fontLink":"https://fonts.google.com/specimen/Potta+One"
+    },
+    {
+        "id":"3",
+        "fontName":"Open Sans",
+        "fontLink":"https://fonts.google.com/specimen/Open+Sans"
+    },
+    {
+        "id":"4",
+        "fontName":"Montserrat",
+        "fontLink":"https://fonts.google.com/specimen/Montserrat"
+    },
+    {
+        "id":"5",
+        "fontName":"Imbue",
+        "fontLink":"https://fonts.google.com/specimen/Imbue"
+    },
+    {
+        "id":"6",
+        "fontName":"Fraunces",
+        "fontLink":"https://fonts.google.com/specimen/Fraunces"
+    },
+    {
+        "id":"7",
+        "fontName":"Noto Sans JP",
+        "fontLink":"https://fonts.google.com/specimen/Noto+Sans+JP"
+    },
+    {
+        "id":"8",
+        "fontName":"Lato",
+        "fontLink":"https://fonts.google.com/specimen/Lato"
+    },
+    {
+        "id":"9",
+        "fontName":"Source Sans Pro",
+        "fontLink":"https://fonts.google.com/specimen/Source+Sans+Pro"
+    },
+    {
+        "id":"10",
+        "fontName":"Oswald",
+        "fontLink":"https://fonts.google.com/specimen/Oswald"
+    }, {
+        "id":"11",
+        "fontName":"Hachi Maru Pop",
+        "fontLink":"https://fonts.google.com/specimen/Hachi+Maru+Pop#pairings"
+    }, {
+        "id":"12",
+        "fontName":"Poppins",
+        "fontLink":"https://fonts.google.com/specimen/Poppins"
+    }, {
+        "id":"13",
+        "fontName":"Roboto Condensed",
+        "fontLink":"https://fonts.google.com/specimen/Roboto+Condensed"
+    }, {
+        "id":"14",
+        "fontName":"Roboto Mono",
+        "fontLink":"https://fonts.google.com/specimen/Roboto+Mono"
+    }, {
+        "id":"15",
+        "fontName":"Bodoni Moda",
+        "fontLink":"https://fonts.google.com/specimen/Bodoni+Moda"
+    }
+]
