@@ -36,16 +36,10 @@ export default class Generate extends Component {
         return suffle;
     }
     refresh() {
-        let num1 = this.generateRandomNumber(0, 99);
-        let num2 = this.generateRandomNumber(0, 4);
-        let num3 = this.generateRandomNumber(0, 4);
-        let fnum1 = this.generateRandomNumber(0, 4);
-        let fnum2 = this.generateRandomNumber(0, 4);
-        this.setState({num1: num1});
-        this.setState({num2: num2});
-        this.setState({num3: num3});
-        this.setState({fnum1: fnum1});
-        this.setState({fnum2: fnum2});
+        this.onClickChallenge();
+        this.onClickColor();
+        this.onClickFont();
+        this.onClickLibrary();
         
     }
     onClickChallenge(){
@@ -57,12 +51,19 @@ export default class Generate extends Component {
         this.setState({num2: num2});
     }
     onClickFont(){
-        let fnum1 = this.generateRandomNumber(0, 4);
-        let fnum2 = this.generateRandomNumber(0, 4);
+        let fnum1 = this.generateRandomNumber(0, 15);
+        let fnum2 = this.generateRandomNumber(0, 15);
+        if(fnum1 === fnum2 && fnum2 === 15){
+            fnum2 = fnum2--;
+            this.setState({fnum2: fnum2});
+        }else if(fnum1 === fnum2 && fnum2 !== 15){
+            fnum2 = fnum2++;
+            this.setState({fnum2: fnum2});
+        }else{
         this.setState({fnum1: fnum1});
         this.setState({fnum2: fnum2});
-        
-    }
+        }
+     }
     onClickLibrary(){
         let num3 = this.generateRandomNumber(0, 4);
         this.setState({num3: num3});
