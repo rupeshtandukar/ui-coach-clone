@@ -3,7 +3,7 @@ import '../Button.css';
 import './Generate.css';
 import Challenge from '../Data/Challenge.json';
 import Fonts from '../Data/Fonts.json';
-import Color from './Color'
+import Schemes from './Schemes';
 
 export default class Generate extends Component {
     constructor(props){
@@ -22,13 +22,11 @@ export default class Generate extends Component {
     }
     randomNumber() {
         let num1 = this.generateRandomNumber(0, 99);
-        let num2 = this.generateRandomNumber(0, 4);
         let num3 = this.generateRandomNumber(0, 4);
         let fnum1 = this.generateRandomNumber(0, 4);
         let fnum2 = this.generateRandomNumber(0, 4);
         let suffle = {
             num1: num1,
-            num2: num2,
             num3: num3,
             fnum1: fnum1,
             fnum2: fnum2,
@@ -47,8 +45,7 @@ export default class Generate extends Component {
         this.setState({num1: num1});
     }
     onClickColor(){
-        let num2 = this.generateRandomNumber(0, 4);
-        this.setState({num2: num2});
+        
     }
     onClickFont(){
         let fnum1 = this.generateRandomNumber(0, 15);
@@ -69,7 +66,7 @@ export default class Generate extends Component {
         this.setState({num3: num3});
     }
     render() {
-        let {num1, num2, num3, fnum1, fnum2} = this.state
+        let {num1, num3, fnum1, fnum2} = this.state
         return (
                  <div className='generarte-section'>
             <center><button onClick={this.refresh} className='refresh btn'>Refresh All <i className='fas fa-sync-alt'></i></button></center>
@@ -80,7 +77,7 @@ export default class Generate extends Component {
             </div>
             <div className='color-pallete box'>
                 <h3 className='color2 size'>Color palette</h3>
-                <Color num2={num2}/>
+                <Schemes/>
                 <i onClick={this.onClickColor} className="fas fa-sync-alt color2"></i>
             </div>
             <div className='font-pairing box'>
