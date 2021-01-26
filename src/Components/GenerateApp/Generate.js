@@ -13,8 +13,8 @@ export default class Generate extends Component {
 
         this.refresh = this.refresh.bind(this);
         this.onClickChallenge = this.onClickChallenge.bind(this);
-        this.onClickColor = this.onClickColor.bind(this);
         this.onClickFont = this.onClickFont.bind(this);
+        this.componentDidMount = this.componentDidMount.bind(this);
         this.onClickLibrary = this.onClickLibrary.bind(this);
     }
     generateRandomNumber(min, max) {
@@ -25,27 +25,40 @@ export default class Generate extends Component {
         let num3 = this.generateRandomNumber(0, 4);
         let fnum1 = this.generateRandomNumber(0, 4);
         let fnum2 = this.generateRandomNumber(0, 4);
+        let fetchurl = 'http://colormind.io/api/';
         let suffle = {
             num1: num1,
             num3: num3,
             fnum1: fnum1,
             fnum2: fnum2,
+            fetchurl: fetchurl,
+            colorPalette:[],
         }
         return suffle;
     }
     refresh() {
         this.onClickChallenge();
-        this.onClickColor();
         this.onClickFont();
         this.onClickLibrary();
+        this.componentDidMount();
         
     }
+    async componentDidMount(){
+        const request = await fetch(this.state.fetchurl, {
+            method: 'POST',
+            body: JSON.stringify({
+              model: 'default'
+            })
+          })
+            .then(result => result.json())
+            .catch(console.log)
+            this.setState({colorPalette: request.result});
+            return(request);        
+    }
+    
     onClickChallenge(){
         let num1 = this.generateRandomNumber(0, 99);
         this.setState({num1: num1});
-    }
-    onClickColor(){
-        
     }
     onClickFont(){
         let fnum1 = this.generateRandomNumber(0, 15);
@@ -66,7 +79,7 @@ export default class Generate extends Component {
         this.setState({num3: num3});
     }
     render() {
-        let {num1, num3, fnum1, fnum2} = this.state
+        let {num1, num3, fnum1, fnum2, colorPalette} = this.state
         return (
                  <div className='generarte-section'>
             <center><button onClick={this.refresh} className='refresh btn'>Refresh All <i className='fas fa-sync-alt'></i></button></center>
@@ -76,10 +89,10 @@ export default class Generate extends Component {
                 <i onClick={this.onClickChallenge} className="fas fa-sync-alt color1"></i>
             </div>
             <div className='color-pallete box'>
-                <h3 className='color2 size'>Color palette</h3>
-                <Schemes/>
-                <i onClick={this.onClickColor} className="fas fa-sync-alt color2"></i>
-            </div>
+             <h3 className='color2 size'>Color palette</h3>
+             <Schemes palette={colorPalette}/>
+             <i onClick={this.componentDidMount} className="fas fa-sync-alt color2"></i>
+            </div> 
             <div className='font-pairing box'>
                 <h3 className='color3 size'>Font pairing</h3>
                 <div className='link-div'>
